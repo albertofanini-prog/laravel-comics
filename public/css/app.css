@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner{
+    height: 30px;
+    width: 100%;
+    background-color: #0282f9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 5%;
+}
+
+.navbar_wrapper{
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    /* border: 3px solid green; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    /* border: 1px solid red; */
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .logo img{
+    /* border: 1px solid red; */
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+}
+
+.navbar .links{
+    /* border: 1px solid red; */
+    width: 77%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .links .links_list{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar .links .links_list li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar .links .links_list .active{
+    color: #0282f9;
+    border-bottom: 2px solid #0282f9;
+}
+
+.navbar .input{
+    /* border: 1px solid red; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .input .form{
+    border-bottom: 2px solid #0282f9;
+    width: 85%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px
+}
+
+.navbar .input .form input{
+    border: none;
+    width: 80%;
+    text-align: right;
+}
+
+.navbar .input .form button{
+    width: 20%;
+}
