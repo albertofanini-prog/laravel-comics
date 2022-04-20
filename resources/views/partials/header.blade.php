@@ -9,7 +9,7 @@
     <div class="navbar_wrapper">
         <div class="navbar">
             <div class="logo">
-                <img src="/images/dc-logo.png" alt="">
+                <img src="{{asset('images/dc-logo.png')}}" alt="">
             </div>
             <div class="links">
                 <ul class="links_list">
@@ -28,7 +28,7 @@
             <div class="input">
                 <div class="form">
                     <input type="text" placeholder="Search">
-                    <button>C</button>
+                    <button><img src="/images/icons/lens.svg" alt=""></button>
                 </div>
             </div>
         </div>

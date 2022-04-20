@@ -35,6 +35,7 @@ header{
     font-size: 12px;
     font-weight: 600;
     gap: 5%;
+    padding-right: 18px;
 }
 
 .navbar_wrapper{
@@ -132,8 +133,155 @@ header{
     border: none;
     width: 80%;
     text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    outline: none;
+
 }
 
 .navbar .input .form button{
     width: 20%;
+    height: 50%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.navbar .input .form button img{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    background-image: url('/images/jumbotron.jpg');
+}
+
+.jumbotron img{
+    height: 100%;
+    width: 100%;
+}
+
+.comics_wrapper{
+    width: 100%;
+    height: 600px;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comics{
+    width: 65%;
+    height: 80%;
+    /* border: 3px solid purple; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comics ul{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.comics li{
+    width: calc((100% / 6) - 20px);
+    height: 45%;
+    /* border: 1px solid green; */
+}
+
+.comics li img{
+    width: 100%;
+    height: 75%;
+}
+
+.comics li h3{
+    width: 100%;
+    height: 25%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.comics_wrapper button{
+    width: 7%;
+    height: 30px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #0282f9;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.current{
+    position: absolute;
+    top: 38%;
+    left: 17%;
+    width: 175px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #0282f9;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.store_section{
+    height: 200px;
+    width: 100%;
+    background-color: #0282f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store_section ul{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store_section li{
+    width: calc(100% / 5);
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.store_section li img{
+    width: 22%;
+    height: 30%;
+}
+
+.store_section li h5{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
 }
