@@ -159,7 +159,7 @@
             sign-up now
         </button>
         <div class="social_icons">
-            <h4>folow us</h4>
+            <h4>follow us</h4>
             <img src="{{asset('images/icons/footer-facebook.png')}}" alt="">
             <img src="{{asset('images/icons/footer-twitter.png')}}" alt="">
             <img src="{{asset('images/icons/footer-youtube.png')}}" alt="">

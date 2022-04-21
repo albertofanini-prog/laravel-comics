@@ -242,7 +242,7 @@ main .comics_wrapper button {
 
 main .current {
   position: absolute;
-  top: 38%;
+  top: 33%;
   left: 17%;
   width: 175px;
   height: 40px;
@@ -255,7 +255,7 @@ main .current {
 }
 
 main .store_section {
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: #0282f9;
   display: flex;
@@ -281,8 +281,8 @@ main .store_section ul li {
 }
 
 main .store_section ul li img {
-  width: 22%;
-  height: 30%;
+  width: 25%;
+  height: 50%;
 }
 
 main .store_section ul li h5 {
@@ -340,13 +340,8 @@ footer .links_section .link_section_items {
   padding: 0px 10px;
 }
 
-footer .links_section .link_section_items .link_section_items {
+footer .links_section .link_section_items ul {
   list-style: none;
-  /* border: 1px solid black; */
-  width: 25%;
-  text-align: left;
-  margin: 0;
-  padding: 10px 5px;
 }
 
 footer .links_section .link_section_items #link_section_title {
@@ -376,7 +371,7 @@ footer .links_section .logo_section {
 }
 
 footer .links_section .logo_section img {
-  width: 100%;
+  width: 80%;
   height: 105%;
   position: absolute;
   top: 0;

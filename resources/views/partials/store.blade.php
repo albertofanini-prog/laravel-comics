@@ -18,7 +18,7 @@
         </li>
         <li>
             <img src="{{asset('images/icons/dc-power-visa.svg')}}" alt="">
-            <h5>dc poweer visa</h5>
+            <h5>dc power visa</h5>
         </li>
     </ul>
 </div>
