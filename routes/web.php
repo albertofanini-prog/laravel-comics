@@ -451,6 +451,6 @@ Route::get('/comics/{id}', function($id){
         // dd($comics[$id])
         return 'Comics n. '.$id; 
     } else {
-        return 'Not found';
+        abort(404);
     }
 });
