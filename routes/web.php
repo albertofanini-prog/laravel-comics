@@ -442,7 +442,9 @@ Route::get('/comics/{id}', function($id){
     abort_if( !isset($comics[$id]), 404);
 
     // return 'Comics n. '.$id;
-    $comic = $comics[$id];
-    return view('details')->with('comic', $comic);
+    $detail = $comics[$id];
+    return view('details',[
+        // 'comic' => $detail,
+    ])->with('comic', $detail);
 
 })->where('id', '[0-9]+');

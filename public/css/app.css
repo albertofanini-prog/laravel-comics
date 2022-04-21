@@ -285,6 +285,23 @@ main .store_section ul li h5 {
   font-size: 12px;
 }
 
+main .container_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+
+main .container_detail img {
+  width: 175px;
+  height: 300px;
+}
+
+main .container_detail > * {
+  padding: 10px;
+}
+
 footer {
   height: 500px;
   width: 100%;
