@@ -7,11 +7,13 @@
         <div class="comics">
             <ul>
             {{-- {@dump($comics); --}}
-            @foreach($comics as $value)
-                <li>
-                    <img src="{{$value['thumb']}}" alt="">
-                    <h3>{{$value['title']}}</h3>
-                </li>
+            @foreach($comics as $index => $value)
+                <a href="comics/{{$index}}">
+                    <li>
+                        <img src="{{$value['thumb']}}" alt="">
+                        <h3>{{$value['title']}}</h3>
+                    </li>
+                </a>
             @endforeach
             </ul>
         </div>

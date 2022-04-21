@@ -202,20 +202,26 @@ main .comics_wrapper .comics ul {
   list-style: none;
 }
 
-main .comics_wrapper .comics ul li {
+main .comics_wrapper .comics ul a {
+  text-decoration: none;
   width: calc(16.6666666667% - 20px);
-  height: 45%;
+  height: 48%;
+}
+
+main .comics_wrapper .comics ul a li {
+  width: 100%;
+  height: 100%;
   /* border: 1px solid green; */
 }
 
-main .comics_wrapper .comics ul li img {
+main .comics_wrapper .comics ul a li img {
   width: 100%;
-  height: 75%;
+  height: 90%;
 }
 
-main .comics_wrapper .comics ul li h3 {
+main .comics_wrapper .comics ul a li h3 {
   width: 100%;
-  height: 25%;
+  height: 10%;
   color: white;
   text-transform: uppercase;
   font-size: 10px;
