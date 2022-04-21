@@ -285,3 +285,155 @@ main{
     text-transform: uppercase;
     font-size: 12px;
 }
+
+footer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+.links{
+    height: 80%;
+    width: 65%;
+    /* border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links_section{
+    width: 50%;
+    height: 100%;
+}
+
+.links_section > *{
+    padding: 5px 10px;
+}
+
+.links_section ul{
+    list-style: none;
+} */
+
+
+.links_section{
+    height: 80%;
+    width: 100%;
+    background-image: url('/images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0;
+}
+
+.link_section_items{
+    height: 90%;
+    width: 30%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0px 10px;
+}
+
+.link_section_items ul{
+    list-style: none;
+    /* border: 1px solid black; */
+    width: 25%;
+    text-align: left;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+#link_section_title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link_section_items li{
+    color: silver;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.link_section_items li span{
+    margin-top: 10px
+}
+    
+/* .link_section_img{
+    height: 100%;
+    width: 50%;
+    background-image: url('../assets/img/dc-logo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.link_section_img img{
+    height: 80%;
+    width: 80%;
+} */
+
+.logo_section{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.logo_section img{
+    width: 100%;
+    height: 105%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.socials{
+    height: 20%;
+    width: 100%;
+    /* border: 3px solid red; */
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_links{
+    height: 20%;
+    width: 65%;
+    height: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social_links button{
+    height: 30%;
+    width: 15%;
+    background-color: #303030;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #0282f9;
+}
+
+.social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.social_icons h4{
+    color: #0282f9;
+    text-transform: uppercase;
+}
