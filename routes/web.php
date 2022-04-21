@@ -2,17 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-$navbarList = [
-    [
-        "title" => 'character'
-    ],
-    [
-        "title" => 'comics'
-    ],
-];
-
 Route::get('/', function () {
-
     $comics = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -233,6 +223,8 @@ Route::get('/', function () {
 
 Route::get('/comics/{id}', function($id){
 
+    // dd($id);
+
     $comics = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -447,10 +439,10 @@ Route::get('/comics/{id}', function($id){
         ],
     ];
 
-    if( isset($comics[$id])){
-        // dd($comics[$id])
-        return 'Comics n. '.$id; 
-    } else {
-        abort(404);
-    }
-});
+    abort_if( !isset($comics[$id]), 404);
+
+    // return 'Comics n. '.$id;
+    $comic = $comics[$id];
+    return view('details')->with('comic', $comic);
+
+})->where('id', '[0-9]+');
