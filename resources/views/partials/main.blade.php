@@ -19,5 +19,5 @@
     <button class="current">
         current series
     </button>
-    @include('partials.store')
+    @include('partials.store') 
 </main>
